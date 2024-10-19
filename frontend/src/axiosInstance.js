@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:3001/api', 
+  baseURL: 'https://cuvette-backend-eh4r.onrender.com/api', 
 });
 
 export default axiosInstance;
